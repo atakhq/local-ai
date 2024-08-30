@@ -7,7 +7,7 @@ Tested with:
 - 64gb DDR5 System Ram
 - i7-13700F (24 cores)
 
-----------------------------------------------------------------------------------
+
 
 ## Pre-Reqs
 
@@ -15,7 +15,7 @@ Tested with:
 - Docker
 - Nvidia GPU Drivers installed and functional
 
-----------------------------------------------------------------------------------
+
 
 ## Setup
 
@@ -25,7 +25,7 @@ The default file includes contains:
 - llama3
 - gemma 2
 
-----------------------------------------------------------------------------------
+
 
 ## Running the Script:
 
