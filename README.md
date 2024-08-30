@@ -1,6 +1,12 @@
 # local-ai
 Shell script to install/update OpenWeb UI, and install models from ollama.
 
+Tested with:
+- Ubuntu 20.04
+- RTX 4070 12gb Ram
+- 64gb DDR5 System Ram
+- i7-13700F (24 cores)
+
 ----------------------------------------------------------------------------------
 
 ## Pre-Reqs
