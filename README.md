@@ -1,18 +1,40 @@
 # local-ai
 Shell script to install/update OpenWeb UI, and install models from ollama.
 
+----------------------------------------------------------------------------------
+
+## Setup
+
+Update `models_to_install.conf` with the models you want installed. 
+
+The default file includes contains:
+- llama3
+- gemma 2
+
+----------------------------------------------------------------------------------
+
 ## Running the Script:
 
 ### Interactive Mode:
 Run the script without arguments to get the interactive menu:
 
-  - `./manage_openwebui.sh`
+  - `sudo ./manage_openwebui.sh`
 
 ## Command-Line Mode:
 
 Run the script with one of the following arguments to perform specific actions directly:
 
-  - `./manage_openwebui.sh install`
-  - `./manage_openwebui.sh update`
-  - `./manage_openwebui.sh download-models`
-  - `./manage_openwebui.sh help`
+  - `sudo ./manage_openwebui.sh install`
+  - `sudo ./manage_openwebui.sh update`
+  - `sudo ./manage_openwebui.sh download-models`
+  - `sudo ./manage_openwebui.sh help`
+
+----------------------------------------------------------------------------------
+
+## Post Install:
+
+You should now be able to access OpenWeb UI in your browser at http://localhost:8080
+
+----------------------------------------------------------------------------------
+
+
