@@ -37,7 +37,6 @@ Run the script with one of the following arguments to perform specific actions d
 If all went well, you should see output like this:
 ```
 >>> Installing ollama to /usr/local
-[sudo] password for rog: 
 >>> Downloading Linux amd64 CLI
 ######################################################################## 100.0%######################################################################### 100.0%
 >>> Making ollama accessible in the PATH in /usr/local/bin
