@@ -3,6 +3,13 @@ Shell script to install/update OpenWeb UI, and install models from ollama.
 
 ----------------------------------------------------------------------------------
 
+## Pre-Reqs
+
+- Docker
+- Nvidia GPU Drivers installed and functional
+
+----------------------------------------------------------------------------------
+
 ## Setup
 
 Update `models_to_install.conf` with the models you want installed. 
