@@ -33,6 +33,24 @@ Run the script without arguments to get the interactive menu:
 Run the script with one of the following arguments to perform specific actions directly:
 
   - `sudo ./manage_openwebui.sh install`
+
+If all went well, you should see output like this:
+```
+>>> Installing ollama to /usr/local
+[sudo] password for rog: 
+>>> Downloading Linux amd64 CLI
+######################################################################## 100.0%######################################################################### 100.0%
+>>> Making ollama accessible in the PATH in /usr/local/bin
+>>> Creating ollama user...
+>>> Adding ollama user to render group...
+>>> Adding ollama user to video group...
+>>> Adding current user to ollama group...
+>>> Creating ollama systemd service...
+>>> Enabling and starting ollama service...
+Created symlink /etc/systemd/system/default.target.wants/ollama.service → /etc/systemd/system/ollama.service.
+>>> NVIDIA GPU installed.
+```
+
   - `sudo ./manage_openwebui.sh update`
   - `sudo ./manage_openwebui.sh download-models`
   - `sudo ./manage_openwebui.sh help`
