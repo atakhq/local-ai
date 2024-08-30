@@ -66,6 +66,10 @@ Created symlink /etc/systemd/system/default.target.wants/ollama.service → /etc
 
 You should now be able to access OpenWeb UI in your browser at http://localhost:8080
 
+On first boot: Click "Sign Up" at the bottom of the login screen and create your admin login.
+
+** Make sure you write down the admin login creds as this is the only user that can create new users unless you assign more admins **
+
 ----------------------------------------------------------------------------------
 
 
